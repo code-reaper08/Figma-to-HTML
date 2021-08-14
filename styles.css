@@ -31,4 +31,12 @@ li {
   color: #7794ff;
   text-decoration: none;
   display: inline-block;
+  margin-right: 49px;
+}
+body > nav > div.nav-content > ul{
+    padding-right: 158px;
+}
+body > nav > div.nav-content > ul > img{
+    vertical-align: middle;
+    padding-top: 22px;
 }

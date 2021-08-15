@@ -16,10 +16,19 @@ body > nav > div > a .navbar-brand {
 }
 .nav-link {
   color: #7794ff;
-  font-family: Roboto;
+  font-family: "Noto Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
+  margin-left: 51px;
+  transition: 300ms ease-in-out;
+}
+.nav-link:hover {
+  color: #d8e0fd;
+  font-family: "Noto Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
   margin-left: 51px;
 }
 .navbar-nav {
@@ -34,7 +43,7 @@ body > nav > div > a .navbar-brand {
   margin-right: 158px;
 }
 body > div > div > div:nth-child(1) > div > h1 {
-  font-family: Roboto;
+  font-family: "Noto Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 144px;
@@ -47,10 +56,10 @@ body > div > div > div:nth-child(1) > div > h1 {
   padding-top: 93px;
 }
 body > div > div > div:nth-child(1) > div > p {
-  font-family: Roboto;
+  font-family: "Noto Sans", monospace;
   font-style: normal;
   font-weight: normal;
-  font-size: 26px;
+  font-size: 21px;
   color: white;
 }
 body > div > div > div:nth-child(1) > div > p > span {
@@ -76,10 +85,21 @@ body > div:nth-child(3) > div > div > nav {
 } */
 body > div:nth-child(3) > div > div > nav > a.nav-link > img {
   width: 54px;
+  transition: 100ms ease-in-out;
+}
+body > div:nth-child(3) > div > div > nav > a.nav-link > img:hover {
+  width: 54px;
+  transform: skewX(28deg);
 }
 body > div:nth-child(2) > div > div:nth-child(1) > div {
   margin-bottom: 220px;
 }
 #footer-blob > img {
   width: 100%;
+}
+body > div:nth-child(2) > div > div:nth-child(2) > div > img {
+  transition: 300ms ease-in-out;
+}
+body > div:nth-child(2) > div > div:nth-child(2) > div > img:hover {
+  transform: translateX(-10px);
 }

@@ -3,6 +3,7 @@ body {
 }
 body > nav {
   background-color: black;
+  margin-bottom: 96px;
 }
 body > nav > div > a .navbar-brand {
   padding-top: 29px;
@@ -53,4 +54,11 @@ body > div > div > div:nth-child(1) > div > p {
 }
 body > div > div > div:nth-child(1) > div > p > span{
     color: #7794FF;
+}
+body > div > div > div:nth-child(2) > div{
+    width: 381px;
+    height: 381px;
+    background-color: #C4C4C4;
+    box-shadow: 10px -10px 100px #21296E;
+    border-radius: 50%
 }

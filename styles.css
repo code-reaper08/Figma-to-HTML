@@ -1,42 +1,56 @@
-* {
-  margin: 0;
-  padding: 0;
-}
 body {
-  background-color: #000000;
+  background-color: black;
 }
-nav {
-  background: #000000;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-content: space-between;
-  justify-content: space-between;
-  align-items: flex-start;
+body > nav {
+  background-color: black;
 }
-.logo {
-  padding-top: 17px;
-  padding-left: 29px;
+body > nav > div > a .navbar-brand {
+  padding-top: 29px;
   padding-bottom: 29px;
-  /* pointer-events: none; */
-  user-select: none;
-  cursor: pointer;
 }
-li {
+#logo {
+  padding-top: 29px;
+  padding-bottom: 29px;
+  padding-left: 31px;
+}
+.nav-link {
+  color: #7794ff;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
-  line-height: 28px;
-  color: #7794ff;
-  text-decoration: none;
-  display: inline-block;
-  margin-right: 49px;
+  margin-left: 51px;
 }
-body > nav > div.nav-content > ul{
-    padding-right: 158px;
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  align-items: center;
 }
-body > nav > div.nav-content > ul > img{
-    vertical-align: middle;
-    padding-top: 22px;
+#navbarNav > ul > li:nth-child(4) {
+  margin-right: 158px;
+}
+body > div > div > div:nth-child(1) > div > h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 144px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 144px;
+  color: #e6e7ea;
+  margin-bottom: 35px;
+}
+body > div > div > div:nth-child(1) > div > p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  color: white;
+}
+body > div > div > div:nth-child(1) > div > p > span{
+    color: #7794FF;
 }

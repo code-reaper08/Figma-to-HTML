@@ -44,6 +44,7 @@ body > div > div > div:nth-child(1) > div > h1 {
   font-size: 144px;
   color: #e6e7ea;
   margin-bottom: 35px;
+  padding-top: 93px;
 }
 body > div > div > div:nth-child(1) > div > p {
   font-family: Roboto;
@@ -64,4 +65,18 @@ body > div > div > div:nth-child(2) > div{
 }
 body > div > div > div:nth-child(2){
     margin-left: 510px;
+}
+body > div:nth-child(3) > div > div > nav{
+    margin-left: -51px;
+}
+/* body > div:nth-child(3) > div > div > nav > a.nav-link.active > div{
+    background-image: url(./img/github.png);
+    background-repeat: no-repeat;
+    background-position: contain;
+} */
+body > div:nth-child(3) > div > div > nav > a.nav-link > img{
+  width: 54px;
+}
+body > div:nth-child(2) > div > div:nth-child(1) > div{
+  margin-bottom: 220px;
 }

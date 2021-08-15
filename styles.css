@@ -53,30 +53,33 @@ body > div > div > div:nth-child(1) > div > p {
   font-size: 26px;
   color: white;
 }
-body > div > div > div:nth-child(1) > div > p > span{
-    color: #7794FF;
+body > div > div > div:nth-child(1) > div > p > span {
+  color: #7794ff;
 }
-body > div > div > div:nth-child(2) > div{
-    width: 381px;
-    height: 381px;
-    background-color: #C4C4C4;
-    box-shadow: 10px -10px 100px #21296E;
-    border-radius: 50%;
+body > div > div > div:nth-child(2) > div {
+  width: 381px;
+  height: 381px;
+  background-color: #c4c4c4;
+  box-shadow: 10px -10px 100px #21296e;
+  border-radius: 50%;
 }
-body > div > div > div:nth-child(2){
-    margin-left: 510px;
+body > div > div > div:nth-child(2) {
+  margin-left: 510px;
 }
-body > div:nth-child(3) > div > div > nav{
-    margin-left: -51px;
+body > div:nth-child(3) > div > div > nav {
+  margin-left: -51px;
 }
 /* body > div:nth-child(3) > div > div > nav > a.nav-link.active > div{
     background-image: url(./img/github.png);
     background-repeat: no-repeat;
     background-position: contain;
 } */
-body > div:nth-child(3) > div > div > nav > a.nav-link > img{
+body > div:nth-child(3) > div > div > nav > a.nav-link > img {
   width: 54px;
 }
-body > div:nth-child(2) > div > div:nth-child(1) > div{
+body > div:nth-child(2) > div > div:nth-child(1) > div {
   margin-bottom: 220px;
+}
+#footer-blob > img {
+  width: 100%;
 }

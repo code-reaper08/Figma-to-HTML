@@ -1,10 +1,10 @@
 # This is a sample design-oriented project
 
-I tried to make this as similar as possible, and it turned out better.(Not same as the design, but overall look just turn out well)
+I tried to make this as similar as possible from **Figma** to **HTML**, and it turned out better.(Not as same as the design, but overall look just turn out well)
 
 Still it have some nasty issues, I might reiterate the dev process to acheive the design planned.
 
-### Issue:
+### Issues:
 1. Not at all responsive😢 (Works as expected in only desktop)
 2. some placement issues. Need to study more on layering things.
 

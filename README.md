@@ -5,7 +5,7 @@ I tried to make this as similar as possible from **Figma** to **HTML**, and it t
 Still it have some nasty issues, I might reiterate the dev process to acheive the design planned.
 
 ### Issues:
-1. Not at all responsive😢 (Works as expected in only desktop)
+1. Not at all responsive😢 (Works as expected in only desktop).
 2. some placement issues. Need to study more on layering things.
 
 ### Design planned:
